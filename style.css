@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'osvaldo';
+    src: url('fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3CD983);
+    margin: auto;
+    padding: 40px 40px 0px 40px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.719);
+}
+
+header>h1 {
+    text-align: center;
+    font-family: 'osvaldo', Verdana, monospace;
+    font-size: auto;
+    color: white;
+    margin: -29px 20px 23px 20px;
+    text-shadow: 3px 1px 5px rgba(0, 0, 0, 0.699);
+}
+
+header>p {
+    text-align: center;
+    font-family: 'osvaldo', Verdana, monospace;
+    font-size: auto;
+    color: white;
+    text-shadow: 3px 1px 5px rgb(0, 0, 0);
+    margin-bottom: 35px;
+}
+
+nav {
+    background-color: #1e6b40;
+    margin: auto -40px auto -40px;
+    padding: 4px 4px;
+}
+
+nav>a {
+    font-family: 'osvaldo', monospace;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 11px;
+    text-shadow: 3px 1px 5px rgb(0, 0, 0)
+}
+
+nav>a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    max-width: 625px;
+    padding: 10px 10px;
+    margin: auto;
+    box-shadow: inset 0px 3px 8px rgba(0, 0, 0, 0.719);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h2.subtitulos {
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.274), white);
+    font-family: 'idroid';
+    color: #1A5C38;
+}
+
+main > p.paragrafo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    width: auto;
+}
+
+span.palavra {
+    color: green;
+    font-weight: bold;
+}
+
+span.emoji {
+    font-size: 10px;
+}
+
+main>div {
+    text-align: center;
+}
+
+main>div>iframe.videogrande {
+    width: 461px;
+}
+
+main>div#video {
+    background-color: #1E6B40;
+    margin: 0px -10px;
+}
+
+main>aside#secao {
+    background-color: #C5EBD6;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+main>aside#secao>h3 {
+    background-color: #2FA866;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 7px;
+    color: white;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main>aside#secao>p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+main>aside#secao>ul {
+    list-style-type: '\2714\00a0\00a0'; /*CÓDIGO UNIDECODE*/
+    list-style-position: inside;
+    columns: 2;
+    padding: 30px;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #1E6B40;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.719);
+    text-shadow: 3px 1px 5px rgb(0, 0, 0)
+}
