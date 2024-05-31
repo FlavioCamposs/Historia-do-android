@@ -38,7 +38,7 @@ Este arquivo define o estilo da página, incluindo:
 
 ## Como Visualizar a Página
 
-Para visualizar a página web, basta abrir o arquivo `index.html` em um navegador web. Certifique-se de que os arquivos de fonte e imagens referenciados estejam no diretório correto para que todos os elementos sejam carregados corretamente.
+Para visualizar a página web, basta abrir o arquivo `index.html` em um navegador web. Certifique-se de que os arquivos referenciados estejam no diretório correto para que todos os elementos sejam carregados corretamente.
 
 ## Observações Finais
 
