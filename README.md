@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto é uma página web que explora a origem e a evolução do mascote do sistema operacional Android. A página oferece uma visão detalhada sobre como o mascote foi criado e desenvolvido, incluindo informações sobre os primeiros esboços e a contribuição de profissionais da área.
+Este PROJETO é uma página web que explora a origem e a evolução do mascote do sistema operacional Android. A página oferece uma visão detalhada sobre como o mascote foi criado e desenvolvido, incluindo informações sobre os primeiros esboços e a contribuição de profissionais da área.
 
 ## Estrutura do Projeto
 
